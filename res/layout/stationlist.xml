@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/trainListHeaderColor"
+        android:gravity="left" >
+
+        <Button
+            android:id="@+id/stationbutton"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/stationbuttons"
+            android:onClick="stationClick" >
+        </Button>
+
+        <TextView
+            android:id="@+id/stationHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textFilterEnabled="true" />
+
+    <TextView
+        android:id="@+id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/stationlist_no_items" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/searchStationView1"
+        android:layout_width="0dp"
+        android:layout_height="45dip"
+        android:layout_weight="7"
+        android:gravity="left|center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/searchStationView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:gravity="left|center"
+        android:layout_weight="3"
+        android:text="" />
+
+</LinearLayout>

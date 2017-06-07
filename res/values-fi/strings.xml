@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RailTrack</string>
+    <string name="TrainListConnectionError">Ei yhteyttä palvelimeen</string>
+    <string name="searchB">Etsi</string>
+    <string-array name="sortSpinner">
+        <item>Junat</item>
+        <item>Asemat</item>
+        <item>Kaikki</item>
+    </string-array>
+    <string name="stationlist_no_items"></string>
+    <color name="trainStatustTextColor">#000000</color>
+    <color name="rowNotVisColor">#00FFFF</color>
+    <string name="ontimeString">ajoissa</string>
+    <color name="trainListHeaderColor">#AA008800</color>
+    <string-array name="searchSpinner">
+    	<item>Junat</item>
+        <item>Asemat</item>
+    </string-array>
+    <color name="trainListSubHeaderColor">#88008800</color>
+    <color name="buttonGrey">#FF999999</color>
+    <color name="nearRowItemColor">#FFFFFF00</color>
+    <string name="menu_settings_title">Asetukset</string>
+    <string name="menu_exit_title">Poistu</string>
+    <string name="preferences_refresh_title">Päivitysväli</string>
+    <string name="preferences_traindir_title">Junien suunta</string>
+    <string name="preferences_traindir_summary">Junien kulkusuunnan näyttäminen</string>
+    <string name="menu_title">RailTrack asetukset</string>
+    <string name="noDataConnectionFI">Ei datayhteyttä</string>
+    <string name="noDataOnStationFI">Ei aikataulutietoja</string>
+    <color name="mainHeaderColor">#3000AA00</color>
+    <string name="lateString">Aikataulusta</string>
+    <string name="preferences_stationname_title">Kartalla asemien nimet</string>
+    <string name="preferences_stationname_summary">Muutoin näytetään asemalyhenteet</string>
+    <string name="noSuchTrainOnMap">Juna ei kartalla</string>
+    <string name="lastRefreshString">Viimeisin päivitys</string>
+    <string name="menu_help_title">Ohjeet</string>
+    <string name="help_title">RailTrack ohjeet</string>
+    <string name="preferences_traindrawable_title">Junakuvake</string>
+    <string name="preferences_traindrawable_summary">Junaa esittävä kuvake</string>
+    <string name="preferences_wakelock_title">Pidä sovellus hereillä</string>
+    <string name="preferences_wakelock_summary">Pitää sovelluksen hereillä ruudun sammuttua ja jatkaa päivittämistä (jos datayhteys päällä). Huom! Lisää akun kulutusta.</string>
+    <string name="preferences_refresh_summary">Paikkatietojen päivitysväli</string>
+    <string name="search_limit">Rajaa valintaa</string>
+    <string name="search_dialog_title">Etsi</string>
+    <string name="train_ic">intercity</string>
+    <string name="train_ic2">intercity2</string>
+    <string name="train_H">taajamajuna</string>
+    <string name="train_P">pikajuna</string>
+    <string name="train_AE">allegro</string>
+    <string name="train_S">pendolino</string>
+    <string name="TrainListNoStationInfo">Ei aikataulua saatavilla</string>
+    <string name="trainList_arrive">Saapuu</string>
+    <string name="trainList_depart">Lähtee</string>
+    <string name="trainList_station">Asema</string>
+    <string name="stationList_arrival">Saapuu:</string>
+    <string name="stationList_departure">Lähtee:</string>
+    <string name="trainList_speed">Nopeus:</string>
+    <string name="trainList_late">myöhässä</string>
+    <string name="trainList_ontime">ajoissa</string>
+    <color name="trainStatusColor_1">#FF00C800</color>
+    <string name="trainStatusString_1">ajoissa</string>
+    <string name="trainStatusString_2">myöhässä</string>
+    <string name="trainStatusString_3">paljon myöhässä</string>
+    <string name="trainStatusString_5">peruttu</string>
+    <color name="trainStatusColor_2">#FFC8C800</color>
+    <color name="trainStatusColor_3">#FFC80000</color>
+    <color name="trainStatusColor_4">#FFC80000</color>
+    <color name="trainStatusColor_5">#64FFFFFF</color>
+    <string name="mylocDialog">Näytä lähin:</string>
+    <string name="mylocDialog_train">juna</string>
+    <string name="mylocDialog_station">asema</string>
+    <string name="lastRefresh">Viimeisin päivitys</string>
+    <string name="lastRefreshDNK">ei tietoa</string>
+</resources>

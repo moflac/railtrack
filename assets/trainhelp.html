@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<h2>Train view</h2>
+Train view header line displays basic information of the train: identification number, 
+route, velocity and current deviation from the schedule in minutes. The background color of the
+deviation time shows the state of lateness:
+
+<span style="background-color:#00C800">green</span> = on time,
+<span style="background-color:#C8C800">yellow</span> = late, 
+<span style="background-color:#C80000">red</span> = very late, 
+<span style="background-color:#CDCDB4">grey</span> = canceled.
+<p>
+Below are the arrival and departure times for each station on the route.
+Grey lines on the list are stations the train has already passed.
+When you click a line the view will be closed and the map view will be returned and centered
+on the chosen station.
+With a long click the schedule of the station will be displayed.
+</p>
+<p>
+When you click the train icon on the upper left corner map view will be resumed and centered
+on the train. With a long click the map will lock on the train and it will follow the 
+train until the train arrives on the final station. You can stop following the train by
+pressing the lock icon on the map.
+</p>
+</body>
+</html> 

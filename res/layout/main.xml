@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<com.google.android.maps.MapView
+		xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mapview"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:clickable="true" android:apiKey="0HyzQE4S0vpZIhUOV4mjzq0eebiXNE57q5ptFKg"
+		android:visibility="visible" />
+	<LinearLayout android:id="@+id/linearLayout1"
+
+		android:layout_height="50dip" android:gravity="right"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+		android:layout_toRightOf="@+id/progressBar1" android:layout_width="match_parent">
+		<ProgressBar android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/progressBar1"
+			android:visibility="visible"></ProgressBar>
+		<Spinner android:layout_width="0dip" android:id="@+id/spinner1"
+			android:layout_height="48dip" android:layout_gravity="center"
+			android:ellipsize="marquee" android:layout_weight="0.4"
+			android:background="@drawable/greenspinner"></Spinner>
+
+		<ImageButton
+		    android:id="@+id/select"
+		    android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:src="@drawable/ic_search_category_default"
+		    android:layout_gravity="bottom"
+		    android:layout_margin="1dip"
+		    android:layout_weight="0.2"
+		    android:background="@drawable/greenbutton"
+		    android:singleLine="true"
+		    android:text="@string/searchB" >
+		</ImageButton>
+		<ImageButton android:layout_width="0dip"
+			android:clickable="true" android:layout_weight="0.2" android:onClick="goToMyLocation"
+			android:src="@drawable/ic_menu_mylocation" android:layout_height="match_parent"
+			android:id="@+id/myLocButton" android:layout_margin="1dip"
+			android:longClickable="true" android:background="@drawable/greenbutton"></ImageButton>
+		<ImageButton android:layout_width="0dip"
+			android:clickable="true" android:onClick="refreshView" android:src="@drawable/ic_menu_refresh"
+			android:layout_height="match_parent" android:id="@+id/refreshButton"
+			android:layout_weight="0.2" android:layout_margin="1dip"
+			android:longClickable="true" android:background="@drawable/greenbutton"></ImageButton>
+	</LinearLayout>
+	<ImageButton android:layout_height="wrap_content"
+		android:src="@drawable/lock" android:id="@+id/lockButton"
+		android:layout_width="wrap_content" android:layout_below="@+id/linearLayout1"
+		android:layout_alignParentRight="true" android:background="@android:color/transparent"
+		android:visibility="gone" android:onClick="releaseLock"></ImageButton>
+
+</RelativeLayout>
+	

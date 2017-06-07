@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="refreshArray">
+    	<item>30 sec.</item>
+     	<item>1 min.</item>
+     	<item>2 min.</item>
+     	<item>5 min.</item>
+     	<item>10 min.</item>
+     	<item>15 min.</item>
+     	<item>Only manual refresh</item>
+ 	</string-array>
+ 	<string-array name="refreshValues">
+     	<item>30000</item>
+     	<item>60000</item>
+     	<item>120000</item>
+     	<item>300000</item>
+     	<item>600000</item>
+     	<item>900000</item>
+     	<item>-10</item>
+ 	</string-array>
+ 	<string-array name="trainArray">
+ 	    <item>Train engine</item>
+     	<item>Directional train engine</item>
+     	<item>Directional arrow</item>
+ 	</string-array>
+ 	<string-array name="trainValues">
+ 		<item>1</item>
+     	<item>2</item>
+     	<item>3</item>
+ 	</string-array>
+ 	 
+</resources>

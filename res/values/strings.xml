@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">RailTrack</string>
+    <string name="TrainListConnectionError">No connection to server</string>
+    <string name="searchB">Search</string>
+    <string-array name="sortSpinner">
+        <item>Trains</item>
+        <item>Stations</item>
+        <item>All</item>
+    </string-array>
+    <string name="stationlist_no_items"></string>
+    <color name="trainStatustTextColor">#000000</color>
+    <color name="rowNotVisColor">#00FFFF</color>
+    <string name="ontimeString">on time</string>
+    <color name="trainListHeaderColor">#AA008800</color>
+    <string-array name="searchSpinner">
+    	<item>Trains</item>
+        <item>Stations</item>
+    </string-array>
+    <color name="trainListSubHeaderColor">#88008800</color>
+    <color name="buttonGrey">#FF999999</color>
+    <color name="nearRowItemColor">#FFFFFF00</color>
+    <string name="menu_settings_title">Settings</string>
+    <string name="menu_exit_title">Exit</string>
+    <string name="preferences_refresh_title">Refresh interval</string>
+    <string name="preferences_traindir_title">Train direction</string>
+    <string name="preferences_traindir_summary">Show train direction</string>
+    <string name="menu_title">RailTrack settings</string>
+    <string name="noDataConnectionFI">No data connection</string>
+    <string name="noDataOnStationFI">No schedule</string>
+    <color name="mainHeaderColor">#3000AA00</color>
+    <string name="lateString">Behind schedule</string>
+    <string name="preferences_stationname_title">Station names on map</string>
+    <string name="preferences_stationname_summary">Otherwise shows abbreviations</string>
+    <string name="noSuchTrainOnMap">Train not on the map</string>
+    <string name="menu_help_title">Help</string>
+    <string name="help_title">RailTrack help</string>
+    <string name="preferences_traindrawable_title">Train icon</string>
+    <string name="preferences_traindrawable_summary">Icon representing the train</string>
+    <string name="preferences_wakelock_title">Keep application awake</string>
+    <string name="preferences_wakelock_summary">Keeps application awake and continues updating (if data connection is on).  Notice: Increases battery consumption.</string>
+    <string name="preferences_refresh_summary">Refresh interval of map information</string>
+    <string name="search_limit">Search</string>
+    <string name="search_dialog_title">Search</string>
+    <string name="train_ic">intercity</string>
+    <string name="train_ic2">intercity2</string>
+    <string name="train_H">regional</string>
+    <string name="train_P">express</string>
+    <string name="train_AE">allegro</string>
+    <string name="train_S">pendolino</string>
+    <color name="trainStatusColor_1">#FF00C800</color>
+    <string name="trainStatusString_1">on time</string>
+    <string name="trainStatusString_2">late</string>
+    <string name="trainStatusString_3">very late</string>
+    <string name="trainStatusString_5">cancelled</string>
+    <color name="trainStatusColor_2">#FFC8C800</color>
+    <color name="trainStatusColor_3">#FFC80000</color>
+    <color name="trainStatusColor_4">#FFC80000</color>
+    <color name="trainStatusColor_5">#64FFFFFF</color>
+    <string name="TrainListNoStationInfo">No schedule available</string>
+    <string name="trainList_arrive">Arrival</string>
+    <string name="trainList_depart">Departure</string>
+    <string name="trainList_station">Station</string>
+    <string name="stationList_arrival">Arrival:</string>
+    <string name="stationList_departure">Departure:</string>
+    <string name="trainList_speed">Speed:</string>
+    <string name="trainList_late">late</string>
+    <string name="trainList_ontime">on time</string>
+    <string name="mylocDialog">Show nearest:</string>
+    <string name="mylocDialog_train">train</string>
+    <string name="mylocDialog_station">station</string>
+    <string name="lastRefresh">Last refresh</string>
+    <string name="lastRefreshDNK">no idea</string>
+</resources>

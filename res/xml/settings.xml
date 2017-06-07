@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference android:title="@string/preferences_refresh_title"
+		android:key="refresh_interval" android:summary="@string/preferences_refresh_summary"
+		android:entryValues="@array/refreshValues" android:entries="@array/refreshArray" android:defaultValue="120000"></ListPreference>
+	<ListPreference android:entries="@array/trainArray" android:entryValues="@array/trainValues" android:key="train_pic" android:summary="@string/preferences_traindrawable_summary" android:title="@string/preferences_traindrawable_title" android:defaultValue="2" /><CheckBoxPreference android:key="station_name" android:summary="@string/preferences_stationname_summary" android:title="@string/preferences_stationname_title" android:defaultValue="true"></CheckBoxPreference>
+	
+	<CheckBoxPreference android:key="wake_lock" android:title="@string/preferences_wakelock_title" android:summary="@string/preferences_wakelock_summary" android:defaultValue="false"/>
+
+</PreferenceScreen>
